@@ -4,6 +4,19 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
+h1, h2{
+    color: rgb(74,74,74);
+}
+
+h1{
+    font-size: 3.5rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+/**HEADER**/
 header {
     position: fixed;
     z-index: 100;
@@ -17,16 +30,52 @@ header {
 
 #headerLogo{
     display: flex;
+    margin: 24px;
 }
 
 nav{
     display: block;
+    margin: 24px;
 }
 
 nav a{
     margin: 8px;
+    text-decoration: none;
+    color: black;
 }
 
+#gray{
+    color: gray;
+}
+
+/**MAIN**/
 main{
-    background-color: gray;
+    width: 100%;
+}
+#banner{
+    width: 100%;
+    position: absolute;
+    top: 68px;
+    background-color: lightgray;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+#bannerImg{
+    width: 60%;
+    padding: 32px 24px;
+}
+
+#learnNew{
+    display: inline-flex;
+    flex-direction: column;
+    padding: 24px;
+}
+
+button{
+    background-color: rgb(74,74,74);
+    border: rgb(74,74,74) solid 1px;
+    color: lightgray;
+    padding: 8px;
+    width: auto;
 }
