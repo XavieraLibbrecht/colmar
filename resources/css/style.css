@@ -1,0 +1,32 @@
+body{
+    width: 100%;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    background-color: white;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 68px;
+}
+
+#headerLogo{
+    display: flex;
+}
+
+nav{
+    display: block;
+}
+
+nav a{
+    margin: 8px;
+}
+
+main{
+    background-color: gray;
+}
