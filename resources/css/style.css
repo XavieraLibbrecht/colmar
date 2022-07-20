@@ -94,7 +94,7 @@ button{
     border: rgb(74,74,74) solid 1px;
     color: lightgray;
     padding: 8px;
-    width: auto;
+    width: 400px;
 }
 
 /*Information*/
@@ -165,4 +165,51 @@ button{
 #courseInfo{
     text-align: left;
     padding: 16px 16px 24px 16px;
+}
+
+/*Thesis*/
+#thesisExhibit{
+    text-align: center;
+    width: 100%;
+}
+#thesis{
+    background-color: white;
+    text-align: center;
+    padding: 32px;
+    display: inline-flex;
+}
+
+#thesisVideo{
+    width: 60%;
+    text-align: left;
+}
+
+video{
+    width: 100%;
+}
+
+#thesisRight{
+    width: 40%;
+    padding: 0 24px 24px 24px;
+}
+
+#thesisBox{
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+}
+
+#thesisBox img{
+    width: 35%;
+    height: auto;
+    padding: 16px;
+}
+
+#thesisInfo{
+    width: 65%;
+    text-align: left;
+}
+
+.fisma{
+    background-color: lightgray;
 }
