@@ -16,9 +16,17 @@ h2{
     font-size: 2rem;
 }
 
+h3{
+    font-size: 1.7rem;
+}
+
 a{
     text-decoration: none;
     color: rgb(56,182,238)
+}
+
+p{
+    padding: 8px;
 }
 
 /**HEADER**/
@@ -132,4 +140,29 @@ button{
 
 #infoGuest{
     background-color: lightgray
+}
+
+/*Start learning*/
+#startLearning{
+    background-color: lightgray;
+    text-align: center;
+    padding: 32px;
+}
+
+#courses{
+    padding: 32px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.courseBox{
+    background-color: white;
+    margin: 32px;
+}
+
+#courseInfo{
+    text-align: left;
+    padding: 16px 16px 24px 16px;
 }
